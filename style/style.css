@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    align-items: center;
+}
+body{
+    background-color: rgba(204, 199, 255, 0.802);
+    /* height: 100vh; */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.main_content{
+    width: 50%;
+    background-color: white;
+    height: 100vh;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    /* overflow: scroll; */
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scrollbar-color: rgb(179, 179, 255);
+    
+}
+.img_logo{
+    width: 70px;
+    height: 70px;
+}
+h2{
+    font-size: 4rem;
+
+}
+hr{
+    color: gray;
+    background-color: gray;
+}
+marquee {
+    color: gray;
+
+}
+ul{
+    font-size: x-large;
+    margin-left: 80px;
+}
+
+ul li{
+    padding: 3px;
+    margin-bottom: 7px;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    background-color: gainsboro;
+    border-radius: 15px;
+    padding-left: 30px;
+    font-weight: bolder;
+    
+}
+ul li:hover{
+    background-color: rgb(186, 184, 184);
+    
+}
+
+ul li:active{
+    background-color: rgb(152, 146, 146);
+    
+}
+a{
+    text-decoration: none;
+    font-size: none;
+}
+
+
+a:hover{
+    color: rgb(73, 71, 0);
+}
+span{
+    color: rgb(2, 16, 108);
+}
+
+
